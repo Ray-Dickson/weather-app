@@ -23,7 +23,7 @@ weatherForm.addEventListener("submit", (e)=>{
                 // console.log(data.error)
             }
             else{
-                msgOne.textContent = "Weather update: " + data.forecast.weatherUpdate + ". " + "It is currently " + data.forecast.temperature + " degrees celcuis"
+                msgOne.textContent = "Weather update: " + data.forecast.weatherUpdate + ". " + "It is currently " + data.forecast.temperature + " degree celsuis"
                 msgTwo.textContent = "Location: " +data.location
                 // console.log(data)
             }           
